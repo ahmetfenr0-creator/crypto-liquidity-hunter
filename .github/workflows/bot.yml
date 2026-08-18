@@ -19,7 +19,7 @@ jobs:
           python-version: "3.11"
 
       - name: Gereksinimleri yükle
-        run: pip install -r gereksinimler_v5.txt
+        run: pip install -r requirements_v5.txt
 
       - name: Botu çalıştır
         env:
